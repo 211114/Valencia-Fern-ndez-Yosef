@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor-rojo {
+    background-color: red;
+    padding: 20px;
+}
+
+.contenedor-azul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.circulo-verde {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    border: 5px solid white;
+}
